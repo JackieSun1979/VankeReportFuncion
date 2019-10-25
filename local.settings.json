@@ -1,0 +1,25 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=pbireportdata;AccountKey=haKGwTd4QEzLNYf3v/O+SE8i2HqHgG4kV5igrJVHEz6+K0Mi4BfQb44hghQJRQtTVIZSyDFBJcT20mPuDc76lw==;BlobEndpoint=https://pbireportdata.blob.core.windows.net/;TableEndpoint=https://pbireportdata.table.core.windows.net/;QueueEndpoint=https://pbireportdata.queue.core.windows.net/;FileEndpoint=https://pbireportdata.file.core.windows.net/",
+    "Location": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "DATA_CONTAINER_NAME": "data",
+    "UsageReportAPIUrlCN": "https://ea.azure.cn/rest/{0}/usage-report",
+    "EnrollmentNumberCN": "V5701811S0845",
+    "AccessKeyCN": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6InJtSUhHNjNQZElOcWxQenFnQWd1eXZISzdMbyJ9.eyJFbnJvbGxtZW50TnVtYmVyIjoiVjU3MDE4MTFTMDg0NSIsIklkIjoiMjk1MGQyZjEtZjNmMS00ODRjLThhYjYtYzk1NGMyYWVlYjRjIiwiUmVwb3J0VmlldyI6IkluZGlyZWN0RW50ZXJwcmlzZSIsIlBhcnRuZXJJZCI6IiIsIkRlcGFydG1lbnRJZCI6IiIsIkFjY291bnRJZCI6IiIsImlzcyI6ImVhLm1pY3Jvc29mdGF6dXJlLmNvbSIsImF1ZCI6ImNsaWVudC5lYS5taWNyb3NvZnRhenVyZS5jb20iLCJleHAiOjE1ODU0NDQ3NTksIm5iZiI6MTU2OTcxOTk1OX0.Kx0Q6NNNWZo4Sdz9Ibn-QPYCtSI8-c9YTwqLJANddCJgoubVDyEiUQmJeY1ZCLsZ3ABi9FBuew31TG6NHBoF41-u5mPd2ZhYk03QA3k1Cg13LOJZt3DdNj9NbFjq0grnaSoQ0QMLDYupPSiU0rCoI7LmzOxGDEbEO6U7corHDZzQ8m0z68iXt8-gC3M8nzsNBclLMKCpXsZA-k6hgjJZBWsvMUICvsrHMSmf5UdK9BWvM_cqzrSkwaLs3LKbbEppLOgp3mTv38vta3vmmqis_OQVP3b1RgDGxSDSe9y9bos7WLB7gy2IHq-ghA8zO7WujqdkT0TuqYEwoRtXJaJ4rg",
+    "UsageReportAPIUrlGlobal": "https://consumption.azure.com/v3/enrollments/{0}/usagedetails/download?billingPeriod={1}",
+    "EnrollmentNumberGlobal": 71367340,
+    "AccessKeyGlobal": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImpoeXA2UU9DWlZmY1pmdmhDVGR1OFdxeTJ5byJ9.eyJFbnJvbGxtZW50TnVtYmVyIjoiNzEzNjczNDAiLCJJZCI6IjdjNzY0NjIzLWYzYzAtNGNmOS1iNzMxLTVmNDVkNTA2OGVmYSIsIlJlcG9ydFZpZXciOiJJbmRpcmVjdEVudGVycHJpc2UiLCJQYXJ0bmVySWQiOiIiLCJEZXBhcnRtZW50SWQiOiIiLCJBY2NvdW50SWQiOiIiLCJpc3MiOiJlYS5taWNyb3NvZnRhenVyZS5jb20iLCJhdWQiOiJjbGllbnQuZWEubWljcm9zb2Z0YXp1cmUuY29tIiwiZXhwIjoxNTg1NDQ0NDAxLCJuYmYiOjE1Njk3MTk2MDF9.ARz2GRVO9ZoVJBdMPtXZ54SvZNcP0MwN3203zfGJ25UbdZI3vh4dqr6AxcSPIDTFyDpBk0VO82gbT-2EmAk_4jbWyOBSJ4nyO6Fb-DI93W9zzEBkV_lz8tuOSEDd1EjAaVQEkzhC9S6xRCMN8Izfa2C6IsFoHx20cCrNn7w5V7xItZC4qvRP7q2p1of50myKnzczsqBw-iUuNIIk9eLa0IF0ajvoCNgr-RkejMWgZ43Ia1QaB9axN5_49w_a5wAMEqNb9ZWV9skXXRPOzJvjVBJkI-GjeqlgAqS4IxvOXYQ-pmajh5g0K1PuqGgftMkY1_jkC5SFMv5KyGSBth7HTA",
+    "ExchangeRate": 7.1,
+    "FieldMapping": "AccountName|Account Name,AccountOwnerEmail|AccountOwnerId,ConsumedQuantity|Consumed Quantity,ConsumedService|Consumed Service,Cost|ExtendedCost,CostCenter|Cost Center,Date|Date,DepartmentName|Department Name,InstanceId|Instance ID,MeterCategory|Meter Category,MeterId|Meter ID,MeterName|Meter Name,MeterRegion|Meter Region,MeterSubCategory|Meter Sub-Category,Product|Product,ResourceGroup|Resource Group,ResourceLocation|Resource Location,ResourceRate|ResourceRate,ServiceAdministratorId|ServiceAdministratorId,ServiceInfo1|ServiceInfo1,ServiceInfo2|ServiceInfo2,StoreServiceIdentifier|Store Service Identifier,SubscriptionGuid|SubscriptionGuid,SubscriptionId|SubscriptionId,SubscriptionName|Subscription Name,UnitOfMeasure|Unit of Measure",
+    "ClientIdGlobal": "0a9520d9-fa33-4a5e-b83d-1eec5bbb36fb",
+    "ClientSecretGlobal": "Z4Dz5Vs44L]tWaxLrp[-DA/[Vmq6R1h7",
+    "TenantIdGlobal": "dc61ae05-a49e-49d7-8ff6-15784e55ddb3",
+    "ClientIdCN": "c77b8d53-9a17-4804-9796-0d57dd80fe0d",
+    "ClientSecretCN": "c@gC3v5VJshw=s6OXXM:LvBaFZ8mMbl[",
+    "TenantIdCN": "0272847e-e5ad-4b88-91ff-3def3e0b0e88",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=pbireportdata;AccountKey=haKGwTd4QEzLNYf3v/O+SE8i2HqHgG4kV5igrJVHEz6+K0Mi4BfQb44hghQJRQtTVIZSyDFBJcT20mPuDc76lw==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "functiongeneratereportdata20191024"
+  }
+}
